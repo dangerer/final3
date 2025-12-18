@@ -38,7 +38,7 @@
         </div>
     </section>
 <div class="container-fluid my-4 mt-5">    
-    <h1 class="mb-4 finale-title mb-5">🥳 Datenschutzerklärung</h1>
+    <h1 class="mb-4 finale-title mb-5">Datenschutzerklärung</h1>
 
     <h2>1. Verantwortlicher</h2>
     <p>

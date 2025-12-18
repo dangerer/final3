@@ -51,7 +51,7 @@ include_once 'preise.php';
     </section>
 <div class="container-fluid container-fluid-600 my-4 mt-5">    
     
-    <h1 class="mb-4 subpage-title mb-5">🏆 Tickets für das Final3</h1>
+    <h1 class="mb-4 subpage-title mb-5">Tickets für das Final3</h1>
 
     <form id="ticketForm" action="anmeldung_bestaetigung.php" method="post">
         <div class="row">
@@ -82,6 +82,7 @@ include_once 'preise.php';
                       </div>';
             }
             ?>
+            * Gratis bis zum 15. Lebensjahr (Geburtstag nach 20.02.2011)
         </div>
             <div class="form-check mt-4 form-narrow">
     <input class="form-check-input" type="checkbox" value="1" id="agb" name="agb">

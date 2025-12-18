@@ -42,8 +42,8 @@
         </div>
     </section>
 <div class="container-fluid my-4 mt-5"> 
-   <div class="text-center mb-4"> 
-<h1 class="mb-4 finale-title mb-5">🍆 Allgemeine Geschäftsbedingungen (AGB)</h1>
+   <div class="mb-4"> 
+<h1 class="mb-4 finale-title mb-5">Allgemeine Geschäftsbedingungen (AGB)</h1>
 </div>
  <div class="row"> 1. Geltungsbereich<br />
 

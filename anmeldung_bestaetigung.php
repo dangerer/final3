@@ -82,7 +82,7 @@ $ticketListeHTML .= '';
 // Zahlungsdaten
 // --------------------
 $empfaenger = "Union Arnreit";
-$iban = "AT663551000005513232";
+$iban = "AT673441000006613673";
 $verwendungszweck = "Tickets Final3, Rechnungsnummer $insert_id";
 
 // EPC / SEPA QR-Code (korrektes Format)
@@ -193,7 +193,7 @@ mail($email, $subject, $message, $headers);
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>Bestellbestätigung</title>
+<title>Rechnung Final3 2026</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
  <!-- Favicon -->
@@ -220,7 +220,7 @@ mail($email, $subject, $message, $headers);
 
     <div class="card card-rechnung">
         <div class="card-body">
-            <h1 class="mb-3 d-print-none finale-title mb-5">🎉 Vielen Dank für Ihre Bestellung!</h1>
+            <h1 class="mb-3 d-print-none finale-title mb-5">Vielen Dank für Ihre Bestellung!</h1>
 
             <p>
                 <?php echo $rechnungstext ?>
@@ -236,7 +236,7 @@ mail($email, $subject, $message, $headers);
                 Sollten Sie keine E-Mail erhalten, überprüfen Sie bitte Ihren
                 <strong>Spam-Ordner</strong>.
                 Bei weiteren Fragen wenden Sie sich bitte an
-                <a href="mailto:info@zeltfest-arnreit.at">info@zeltfest-arnreit.at</a>.
+                <a href="mailto:kontakt@union-arnreit.at">kontakt@union-arnreit.at</a>.
             </p>
 
             <p class="mt-4">
