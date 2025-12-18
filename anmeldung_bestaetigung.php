@@ -194,8 +194,8 @@ mail($email, $subject, $message, $headers);
 <head>
 <meta charset="UTF-8">
 <title>Rechnung Final3 2026</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+ <link href="css/bootstrap5-3-8/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
  <!-- Favicon -->
     <link rel="icon" type="image/png" href="Final3_CMYK_F3-frei.png">
 
