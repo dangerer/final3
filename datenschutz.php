@@ -19,12 +19,26 @@
 </head>
 
 </head>
-<body class="container my-5">
-    <div class="container my-4" style="max-width:600px">
-<div class="text-center mb-4">
-        <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+<body class="datenschutz">
+    <div class="d-flex justify-content-center flex-column align-items-center my-4">
+        <div class="h-image">
+            <a href="https://zeltfest-arnreit.at/final3/">
+            <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+            </a>
+        </div>
     </div>
-    <h1 class="mb-4">Datenschutzerklärung</h1>
+    <section class="header">
+        <div class="mask h-100">
+            <div class="container-fluid d-flex justify-content-center flex-column align-items-center h-100">
+                
+                <h1 class="text-center"><span class="italic">Faustball Final3</span> Arnreit 2026<br>
+                    21-22 Februar
+                </h1>
+            </div>
+        </div>
+    </section>
+<div class="container-fluid my-4 mt-5">    
+    <h1 class="mb-4 finale-title mb-5">🥳 Datenschutzerklärung</h1>
 
     <h2>1. Verantwortlicher</h2>
     <p>
@@ -150,7 +164,17 @@
     <p>
         Diese Datenschutzerklärung kann bei Bedarf angepasst werden,
         um rechtlichen oder technischen Änderungen Rechnung zu tragen.
-    </p></div>
+    </p>
+    <div class="text-center mb-4 my-5 footer-logo d-flex justify-content-center align-items-center mt-5">
+        
+            <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+    
+    </div>
+    
+    
+    <div class="text-center mb-4 imprint-footer"><br /><a href="datenschutz.php">Datenschutzerklärung</a></div>
+
+</div>
 
 </body>
 </html>

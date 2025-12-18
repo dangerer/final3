@@ -111,12 +111,12 @@ $emailHTML = "
 <body style=\"font-family: Arial, sans-serif; color:#333;\">";
     
 
-$rechnungstext="<p>Sehr geehrte/r ".$name_besteller.",</p>
+$rechnungstext="<p class='d-print-none'>Sehr geehrte/r ".$name_besteller.",</p>
 
-<p>vielen Dank für Ihre Bestellung der Tickets für das <strong>Final3 am 21. - 22. Februar in Rohrbach, Bezirkssporthalle</strong>.</p>
-<p><b>
+<p class='d-print-none'>vielen Dank für Ihre Bestellung der Tickets für das <strong>Final3 am 21. - 22. Februar in Rohrbach, Bezirkssporthalle</strong>.</p>
+<p class='mb-3 text-print-right'><b>
 ÖTSU Arnreit</b><br /><b>
-Partenreit 26, A-4121 Arnreit</b>
+Partenreit 26 <br />A-4121 Arnreit</b>
     </p>
 <h3>Rechnung Nr.:$insert_id vom $rechnungsdatum</h3>
   ".$ticketListeHTML."
@@ -206,13 +206,21 @@ mail($email, $subject, $message, $headers);
     <link rel="manifest" href="/site.webmanifest">
 </head>
 <body class="container my-4">
-     <div class="text-center mb-4" style="max-width:600px">
-        <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+    
+    <div class="d-flex justify-content-center flex-column align-items-center my-4 d-print-none ">
+        <div class="h-image">
+            <a href="https://zeltfest-arnreit.at/final3/">
+            <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+            </a>
+        </div>
     </div>
+  
+  
+<div class="container-fluid my-4 mt-5"> 
 
-    <div class="card shadow-sm">
+    <div class="card card-rechnung">
         <div class="card-body">
-            <h1 class="mb-3 d-print-none">Vielen Dank für Ihre Bestellung!</h1>
+            <h1 class="mb-3 d-print-none finale-title mb-5">🎉 Vielen Dank für Ihre Bestellung!</h1>
 
             <p>
                 <?php echo $rechnungstext ?>
@@ -235,7 +243,7 @@ mail($email, $subject, $message, $headers);
                 <strong>Rechnungsnummer:</strong> <?= $insert_id ?>
             </p>
             <p>
-            <button class="d-print-none" onclick="window.print()" class="btn btn-secondary">
+            <button class="d-print-none btn btn-primary btn-lg w-100 mt-4" onclick="window.print()" class="btn btn-secondary">
             Rechnung drucken</button></p>
         </div>
     </div>

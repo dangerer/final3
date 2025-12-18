@@ -30,13 +30,28 @@ include_once 'preise.php';
 
 </head>
 <body>
-<div class="container my-4" style="max-width:600px">
 
-    <div class="text-center mb-4">
-        <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+    
+    <div class="d-flex justify-content-center flex-column align-items-center my-4">
+        <div class="h-image">
+            <a href="https://zeltfest-arnreit.at/final3/">
+            <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+            </a>
+        </div>
     </div>
-
-    <h1 class="text-center mb-4 finale-title">Tickets für das Final3</h1>
+    <section class="header">
+        <div class="mask h-100">
+            <div class="container-fluid d-flex justify-content-center flex-column align-items-center h-100">
+                
+                <h1 class="text-center"><span class="italic">Faustball Final3</span> Arnreit 2026<br>
+                    21-22 Februar
+                </h1>
+            </div>
+        </div>
+    </section>
+<div class="container-fluid container-fluid-600 my-4 mt-5">    
+    
+    <h1 class="mb-4 subpage-title mb-5">🏆 Tickets für das Final3</h1>
 
     <form id="ticketForm" action="anmeldung_bestaetigung.php" method="post">
         <div class="row">
@@ -85,7 +100,15 @@ include_once 'preise.php';
 
         <button type="submit" class="btn btn-primary btn-lg w-100 mt-4">Tickets bestellen</button>
     </form>
-    <div class="text-center mb-4"><br /><a href="datenschutz.php">Datenschutzerklärung</a></div>
+    
+    <div class="text-center mb-4 my-5">
+        
+            <img src="logo.png" class="img-fluid event-logo" alt="Final3 Logo">
+    
+    </div>
+    
+    
+    <div class="text-center mb-4 imprint-footer"><br /><a href="datenschutz.php">Datenschutzerklärung</a></div>
 </div>
 
 <script src="script.js"></script>
